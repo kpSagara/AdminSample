@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/border2"
+        >
+
+
+        <ImageView
+            android:id="@+id/image_view_upload"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="12dp"
+            />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/text_view_name3"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/zapfhumanist601bt"
+            android:text="Title"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#8c0000"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/image_view_upload"
+            />
+
+        <TextView
+            android:id="@+id/event_desc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Desc"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/news_date"
+            android:maxLines="6"
+            android:layout_toRightOf="@id/image_view_upload"
+            android:textColor="#500000"
+            android:textSize="15sp"
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/news_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="month"
+            android:textColor="#8c0000"
+            android:textSize="10sp"
+
+            android:layout_toRightOf="@id/image_view_upload"
+            android:layout_below="@id/text_view_name3"
+
+
+
+            />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

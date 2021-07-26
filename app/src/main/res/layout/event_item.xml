@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_view_upload"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/border">
+
+
+        <TextView
+            android:id="@+id/text_view_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#668c0000"
+            android:fontFamily="@font/zapfhumanist601bt"
+            android:layout_above="@id/event_desc2"
+            android:paddingLeft="10sp"
+            android:text="Title"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/event_desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Desc"
+            android:paddingLeft="10sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_button2"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/zapfhumanist601bt"
+            android:textSize="20sp"
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="@font/gothammedium"
+            android:text="month"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+
+
+
+            />
+
+
+    </RelativeLayout>
+    /
+
+</androidx.cardview.widget.CardView>
